@@ -1,0 +1,221 @@
+body{
+background-color:#FC8B5A:
+}
+
+h1{
+font-size:30px;
+color:#054C22;
+font-family: 'EB Garamond', serif;
+
+text-align:center;
+'margin-left:8%;'
+}
+
+hr.title {
+size:1.5;
+
+width:290px;
+}
+
+h2{
+font-size:200%;
+color:#5E1313;
+font-family: 'EB Garamond', serif;
+text-align:center;
+padding-left: 40px;
+}
+
+p.author {
+font-size:65%;
+color:#721414;
+font-family: 'Lato', sans-serif;
+text-align:center;
+'padding-left: 4%;'
+
+}
+p {
+font-size:90%;
+color:#721414;
+font-family: 'Lato', sans-serif;
+text-align:left;
+padding-right: 15%;
+padding-left: 15%;
+max-width:1000px;
+'padding-left: 4%;'
+
+}
+
+
+p.big{
+font-size:140%;
+color:#721414;
+font-family: 'EB Garamond', serif;
+text-align:center;
+padding-right: 15%;
+padding-left: 15%;
+max-width:1000px;
+}
+
+ul {
+font-size:90%;
+color:#721414;
+font-family: 'EB Garamond', serif;
+text-align:left;
+padding-left:15%;
+
+}
+li {
+font-size:90%;
+color:#721414;
+font-family: 'Lato', sans-serif;
+text-align:left;
+padding-right: 15%;
+padding-left: 7%;
+max-width:1000px;
+'padding-left: 4%;'
+
+
+blockquote {
+display: block;
+font-family: 'EB Garamond', serif;
+color:#77AD78;
+}
+
+q {
+font-family: 'EB Garamond', serif;
+color:#F2AA3E;
+}
+
+#right {
+    float: left;
+    width: auto;
+    min-width:10%;
+}
+
+.content {
+	width:75%;
+	text-align:center;
+    min-width: 300px;
+    max-width:2000px;
+   
+    }
+
+
+.icon {
+   fill: #0031BA;
+   ;
+   
+}
+
+.iconinside {
+   fill: #FC8B5A;
+  
+}
+.icon:hover {
+  fill: #054C22;
+}
+
+a.title:link {
+    color: #054C22; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+
+a.title:visited {
+    color: #054C22;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a.title:hover {
+    color: #054C22;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a.title:active {
+    color: #054C22;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a.aphorism:link {
+    color: #721414; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+
+a.aphorism:visited {
+    color: #721414;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a.aphorism:hover {
+    color: #0031BA;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a.aphorism:active {
+    color: #721414;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:link {
+    color: #0031BA; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: #0031BA;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #054C22;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: #054C22;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #FC8B5A;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    padding-bottom:50px;
+}
+
+
+
+
+/* Main content Open page*/
+.main {
+    margin-top: 300px; /* Add a top margin to avoid content overlay */
+}
+.quote {
+	top:80px;
+   margin-top: 60px;
+   position: absolute;
+}
+
+/* Prose on individual pages */
+.prose {
+    margin-top: 350px; /* Add a top margin to avoid content overlay */
+    
+}
+
